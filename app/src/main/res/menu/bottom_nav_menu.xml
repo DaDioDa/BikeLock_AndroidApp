@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_Location"
+        android:icon="@drawable/ic_location"
+        android:title="學校車位" />
+    <item
+        android:id="@+id/menu_Home"
+        android:icon="@drawable/ic_home"
+        android:title="首頁" />
+    <item
+        android:id="@+id/menu_Notify"
+        android:icon="@drawable/ic_notify"
+        android:title="通知中心" />
+    <item
+        android:id="@+id/menu_Persion"
+        android:icon="@drawable/ic_persion"
+        android:title="個人帳號" />
+</menu>
