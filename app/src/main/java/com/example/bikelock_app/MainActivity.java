@@ -8,6 +8,7 @@ import androidx.fragment.app.FragmentTransaction;
 import android.os.Bundle;
 
 import com.example.bikelock_app.databinding.ActivityMainBinding;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -18,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-        replaceFragment(new LocationFragment());
+        replaceFragment(new HomeFragment());
 
         binding.bottomNavigationView.setOnItemSelectedListener(item -> {
             switch (item.getItemId())
@@ -39,6 +40,9 @@ public class MainActivity extends AppCompatActivity {
 
             return true;
         });
+
+        BottomNavigationView mBottomNavigationView=(BottomNavigationView)findViewById(R.id.bottomNavigationView);
+        mBottomNavigationView.getMenu().findItem(R.id.menu_Home).setChecked(true);
     }
 
     void replaceFragment(Fragment fragment)
