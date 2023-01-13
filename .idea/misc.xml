@@ -3,15 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/BikeLock_App/app/src/main/res/drawable/ic_goodlock.xml" value="0.1725" />
         <entry key="..\:/BikeLock_App/app/src/main/res/drawable/ic_home.xml" value="0.1905" />
         <entry key="..\:/BikeLock_App/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1735" />
         <entry key="..\:/BikeLock_App/app/src/main/res/drawable/ic_notify.xml" value="0.1735" />
-        <entry key="..\:/BikeLock_App/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/BikeLock_App/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/BikeLock_App/app/src/main/res/layout/activity_splash.xml" value="0.36614583333333334" />
         <entry key="..\:/BikeLock_App/app/src/main/res/layout/fragment_full_campus.xml" value="0.33" />
-        <entry key="..\:/BikeLock_App/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/BikeLock_App/app/src/main/res/layout/fragment_home.xml" value="0.5" />
         <entry key="..\:/BikeLock_App/app/src/main/res/layout/fragment_location.xml" value="0.358695652173913" />
-        <entry key="..\:/BikeLock_App/app/src/main/res/layout/fragment_notify.xml" value="0.358695652173913" />
-        <entry key="..\:/BikeLock_App/app/src/main/res/layout/fragment_persion.xml" value="0.358695652173913" />
+        <entry key="..\:/BikeLock_App/app/src/main/res/layout/fragment_my_park.xml" value="0.36614583333333334" />
+        <entry key="..\:/BikeLock_App/app/src/main/res/layout/fragment_notify.xml" value="0.75" />
+        <entry key="..\:/BikeLock_App/app/src/main/res/layout/fragment_persion.xml" value="0.25" />
+        <entry key="..\:/BikeLock_App/app/src/main/res/layout/fragment_view_building.xml" value="0.33" />
+        <entry key="..\:/BikeLock_App/app/src/main/res/layout/fragment_view_building_lot.xml" value="0.16" />
+        <entry key="..\:/BikeLock_App/app/src/main/res/layout/fragment_view_school_lot.xml" value="0.33" />
         <entry key="..\:/BikeLock_App/app/src/main/res/menu/bottom_nav_menu.xml" value="0.36614583333333334" />
         <entry key="..\:/BikeLock_App/app/src/main/res/mipmap-anydpi-v26/ic_MyPark_no.xml" value="0.1955" />
       </map>
